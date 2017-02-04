@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.4.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>OLED SSD1306 0.96" Breakout Board&lt;br&gt;
+Model UG-2864 0.96&lt;br&gt;
+WN-096&lt;br&gt;
+&lt;br&gt;
+Design by Giovanni Bernardo&lt;br&gt;
+&lt;a href="http://www.settorezero.com"&gt;www.settorezero.com&lt;/a&gt;</description>
+<packages>
+<package name="UG-2864_0.96">
+<description>OLED SSD1306 0.96" Breakout Board</description>
+<pad name="D0/CLK" x="0" y="0" drill="0.8" diameter="1.778"/>
+<pad name="D1/DIN" x="0" y="-2.54" drill="0.8" diameter="1.778"/>
+<pad name="D2" x="0" y="-5.08" drill="0.8" diameter="1.778"/>
+<pad name="D3" x="0" y="-7.62" drill="0.8" diameter="1.778"/>
+<pad name="D4" x="0" y="-10.16" drill="0.8" diameter="1.778"/>
+<pad name="D5" x="0" y="-12.7" drill="0.8" diameter="1.778"/>
+<pad name="D6" x="0" y="-15.24" drill="0.8" diameter="1.778"/>
+<pad name="D7" x="0" y="-17.78" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="GND" x="30.48" y="-17.78" drill="0.8" diameter="1.778" shape="square"/>
+<pad name="VIN" x="30.48" y="-15.24" drill="0.8" diameter="1.778"/>
+<pad name="RES" x="30.48" y="-12.7" drill="0.8" diameter="1.778"/>
+<pad name="RD" x="30.48" y="-10.16" drill="0.8" diameter="1.778"/>
+<pad name="WR" x="30.48" y="-7.62" drill="0.8" diameter="1.778"/>
+<pad name="CS" x="30.48" y="-5.08" drill="0.8" diameter="1.778"/>
+<pad name="RS" x="30.48" y="-2.54" drill="0.8" diameter="1.778"/>
+<pad name="3V3" x="30.48" y="0" drill="0.8" diameter="1.778"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-19.05" x2="0.635" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-19.05" x2="1.27" y2="-19.685" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.27" y1="-19.685" x2="1.27" y2="-19.79395" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="0.635" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="1.905" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="1.905" x2="1.27" y2="2.01395" width="0.127" layer="21"/>
+<wire x1="29.21" y1="2.01395" x2="29.21" y2="1.905" width="0.127" layer="21"/>
+<wire x1="29.21" y1="1.905" x2="29.845" y2="1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="29.845" y1="1.27" x2="31.75" y2="1.27" width="0.127" layer="21"/>
+<wire x1="31.75" y1="1.27" x2="31.75" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="29.21" y1="-19.79395" x2="29.21" y2="-19.685" width="0.127" layer="21"/>
+<wire x1="29.21" y1="-19.685" x2="29.845" y2="-19.05" width="0.127" layer="21" curve="-90"/>
+<wire x1="29.845" y1="-19.05" x2="31.75" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-19.79395" x2="3.06605" y2="-21.9075" width="0.127" layer="21" curve="90"/>
+<wire x1="3.06605" y1="-21.9075" x2="27.41395" y2="-21.9075" width="0.127" layer="21"/>
+<wire x1="27.41395" y1="-21.9075" x2="29.21" y2="-19.79395" width="0.127" layer="21" curve="90"/>
+<wire x1="1.27" y1="2.01395" x2="3.06605" y2="4.1275" width="0.127" layer="21" curve="-90"/>
+<wire x1="3.06605" y1="4.1275" x2="27.41395" y2="4.1275" width="0.127" layer="21"/>
+<wire x1="27.41395" y1="4.1275" x2="29.21" y2="2.01395" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.54" y1="0.3175" x2="2.54" y2="-14.605" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-14.605" x2="27.94" y2="-14.605" width="0.127" layer="21"/>
+<wire x1="27.94" y1="-14.605" x2="27.94" y2="0.3175" width="0.127" layer="21"/>
+<wire x1="27.94" y1="0.3175" x2="2.54" y2="0.3175" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="UG-2864_0.96">
+<description>OLED SSD1306 0.96" Breakout Board</description>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="25.4" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-12.7" x2="25.4" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<pin name="D0/CLK" x="-5.08" y="-2.54" visible="pin" length="middle"/>
+<pin name="D1/DIN" x="-5.08" y="-5.08" visible="pin" length="middle"/>
+<pin name="D2" x="-5.08" y="-7.62" visible="pin" length="middle"/>
+<pin name="D3" x="-5.08" y="-10.16" visible="pin" length="middle"/>
+<pin name="D4" x="-5.08" y="-12.7" visible="pin" length="middle"/>
+<pin name="D5" x="-5.08" y="-15.24" visible="pin" length="middle"/>
+<pin name="D6" x="-5.08" y="-17.78" visible="pin" length="middle"/>
+<pin name="D7" x="-5.08" y="-20.32" visible="pin" length="middle"/>
+<pin name="3V3" x="40.64" y="-2.54" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="RS" x="40.64" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="CS" x="40.64" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="WR" x="40.64" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="RD" x="40.64" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="RES" x="40.64" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="VIN" x="40.64" y="-17.78" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="40.64" y="-20.32" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<wire x1="0" y1="0" x2="0" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="-22.86" x2="35.56" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-22.86" x2="35.56" y2="0" width="0.254" layer="94"/>
+<wire x1="35.56" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="13.462" y="-8.382" size="1.27" layer="94">OLED 0.96"</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="UG-2864_0.96">
+<description>OLED SSD1306 0.96" Breakout Board&lt;br&gt;
+Model UG-2864 0.96&lt;br&gt;
+WN-096&lt;br&gt;
+&lt;br&gt;
+Design by Giovanni Bernardo&lt;br&gt;
+&lt;a href="http://www.settorezero.com"&gt;www.settorezero.com&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="UG-2864_0.96" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UG-2864_0.96">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="D0/CLK" pad="D0/CLK"/>
+<connect gate="G$1" pin="D1/DIN" pad="D1/DIN"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="D3" pad="D3"/>
+<connect gate="G$1" pin="D4" pad="D4"/>
+<connect gate="G$1" pin="D5" pad="D5"/>
+<connect gate="G$1" pin="D6" pad="D6"/>
+<connect gate="G$1" pin="D7" pad="D7"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RD" pad="RD"/>
+<connect gate="G$1" pin="RES" pad="RES"/>
+<connect gate="G$1" pin="RS" pad="RS"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="WR" pad="WR"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
