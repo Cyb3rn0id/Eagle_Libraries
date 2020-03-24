@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/badge/License-CC%20BY-SA%204.0-blue)](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
+[![GitHub license](https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue)](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
 
 # Eagle CAD Libraries  
 
