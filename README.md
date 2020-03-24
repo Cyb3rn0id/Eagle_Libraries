@@ -1,3 +1,5 @@
+[![GitHub license](https://img.shields.io/badge/License-CC BY-SA 4.0-blue)](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
+
 # Eagle CAD Libraries  
 
 My Eagle CAD Libraries with parts I use in my projects.  
