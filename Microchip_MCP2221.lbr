@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -82,8 +82,7 @@
 
 &lt;p&gt;&lt;a href="https://www.microchip.com/wwwproducts/en/MCP2221A"&gt;Link to Microchip page about MCP2221&lt;/a&gt;&lt;/p&gt;</description>
 <packages>
-<package name="DIL14" urn="urn:adsk.eagle:footprint:16136/1">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<package name="DIL14" urn="urn:adsk.eagle:footprint:16136/1" locally_modified="yes">
 <wire x1="8.89" y1="2.921" x2="-8.89" y2="2.921" width="0.1524" layer="21"/>
 <wire x1="-8.89" y1="-2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
 <wire x1="8.89" y1="2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
@@ -107,8 +106,7 @@
 <text x="-9.271" y="-3.048" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-6.731" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="SOCKET-14" urn="urn:adsk.eagle:footprint:14341/1">
-<description>&lt;b&gt;Dual In Line Socket&lt;/b&gt;</description>
+<package name="SOCKET-14" urn="urn:adsk.eagle:footprint:14341/1" locally_modified="yes">
 <wire x1="8.89" y1="5.08" x2="-8.89" y2="5.08" width="0.1524" layer="21"/>
 <wire x1="-8.89" y1="-5.08" x2="8.89" y2="-5.08" width="0.1524" layer="21"/>
 <wire x1="8.89" y1="5.08" x2="8.89" y2="2.54" width="0.1524" layer="21"/>
@@ -179,7 +177,17 @@
 </symbols>
 <devicesets>
 <deviceset name="MCP2221" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;Dual In Line / Socket&lt;/b&gt;</description>
+<description>&lt;b&gt;Microchip MCP2221&lt;/b&gt;
+&lt;p&gt;USB 2.0 to I2C/UART Protocol Converter with GPIO&lt;/p&gt;
+&lt;p&gt;&lt;author&gt;Created by Giovanni Bernardo 
+&lt;a href="https://www.settorezero.com"&gt;www.settorezero.com&lt;/a&gt;&lt;/author&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;The MCP2221A is a USB-to-UART/I2C serial converter which enables USB connectivity in applications that have a UART and I2C interfaces.  The device reduces external components by integrating the USB termination resistors and the oscillator needed for USB operation. The MCP2221A also has four GP pins providing miscellaneous functionalities (GPIO, USBCFG, SSPND, Clock Output, ADC, DAC, interrupt detector).&lt;/p&gt;
+
+&lt;p&gt;The MCP2221A is identical to the MCP2221 in all aspects except for the maximum supported baud rate of the UART, which has been increased from 115200 (MCP2221) to 460800 (MCP2221A).  All MCP2221 USB Drivers and Software can be used for the MCP2221A.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.microchip.com/wwwproducts/en/MCP2221A"&gt;Link to Microchip page about MCP2221&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="MCP2221" x="0" y="0"/>
 </gates>

@@ -126,33 +126,33 @@
 <wire x1="-1.27" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="21"/>
 <wire x1="3.81" y1="2.54" x2="11.43" y2="2.54" width="0.127" layer="21"/>
 <wire x1="11.43" y1="2.54" x2="16.51" y2="2.54" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-65.659" x2="10.16" y2="-65.659" width="0.127" layer="21"/>
-<circle x="7.62" y="-68.199" radius="1.27" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-65.659" x2="10.16" y2="-65.659" width="0.127" layer="51"/>
+<circle x="7.62" y="-68.199" radius="1.27" width="0.127" layer="51"/>
 <wire x1="-2.54" y1="1.27" x2="-1.27" y2="2.54" width="0.127" layer="21" curve="-90"/>
 <wire x1="17.78" y1="1.27" x2="16.51" y2="2.54" width="0.127" layer="21" curve="90"/>
-<circle x="0" y="0" radius="1.27" width="0.127" layer="21"/>
-<circle x="15.24" y="0" radius="1.27" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="51"/>
+<circle x="15.24" y="0" radius="1.27" width="0.127" layer="51"/>
 <wire x1="-2.54" y1="-69.85" x2="-1.27" y2="-71.12" width="0.127" layer="21" curve="90"/>
 <wire x1="16.51" y1="-71.12" x2="17.78" y2="-69.85" width="0.127" layer="21" curve="90"/>
-<wire x1="3.81" y1="-2.54" x2="11.43" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-2.54" x2="3.81" y2="2.54" width="0.127" layer="21"/>
-<wire x1="11.43" y1="-2.54" x2="11.43" y2="2.54" width="0.127" layer="21"/>
-<circle x="0" y="-68.58" radius="1.27" width="0.127" layer="21"/>
-<circle x="15.24" y="-68.58" radius="1.27" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-70.739" x2="5.08" y2="-65.659" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-70.739" x2="10.16" y2="-65.659" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-70.739" x2="5.08" y2="-70.739" width="0.127" layer="21"/>
-<circle x="4.445" y="-20.32" radius="0.254" width="0.0762" layer="21"/>
-<circle x="5.715" y="-20.32" radius="0.254" width="0.0762" layer="21"/>
-<circle x="6.985" y="-20.32" radius="0.254" width="0.0762" layer="21"/>
-<circle x="8.255" y="-20.32" radius="0.254" width="0.0762" layer="21"/>
-<circle x="9.525" y="-20.32" radius="0.254" width="0.0762" layer="21"/>
-<circle x="10.795" y="-20.32" radius="0.254" width="0.0762" layer="21"/>
-<wire x1="-2.54" y1="-19.05" x2="17.78" y2="-19.05" width="0.0762" layer="21" style="shortdash"/>
+<wire x1="3.81" y1="-2.54" x2="11.43" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="2.54" width="0.127" layer="51"/>
+<wire x1="11.43" y1="-2.54" x2="11.43" y2="2.54" width="0.127" layer="51"/>
+<circle x="0" y="-68.58" radius="1.27" width="0.127" layer="51"/>
+<circle x="15.24" y="-68.58" radius="1.27" width="0.127" layer="51"/>
+<wire x1="5.08" y1="-70.739" x2="5.08" y2="-65.659" width="0.127" layer="51"/>
+<wire x1="10.16" y1="-70.739" x2="10.16" y2="-65.659" width="0.127" layer="51"/>
+<wire x1="10.16" y1="-70.739" x2="5.08" y2="-70.739" width="0.127" layer="51"/>
+<circle x="4.445" y="-20.32" radius="0.254" width="0.0762" layer="51"/>
+<circle x="5.715" y="-20.32" radius="0.254" width="0.0762" layer="51"/>
+<circle x="6.985" y="-20.32" radius="0.254" width="0.0762" layer="51"/>
+<circle x="8.255" y="-20.32" radius="0.254" width="0.0762" layer="51"/>
+<circle x="9.525" y="-20.32" radius="0.254" width="0.0762" layer="51"/>
+<circle x="10.795" y="-20.32" radius="0.254" width="0.0762" layer="51"/>
+<wire x1="-2.54" y1="-19.05" x2="17.78" y2="-19.05" width="0.0762" layer="51" style="shortdash"/>
 <wire x1="6.604" y1="-62.865" x2="8.636" y2="-62.865" width="0.127" layer="21"/>
 <wire x1="6.604" y1="-62.865" x2="6.604" y2="-63.373" width="0.127" layer="21"/>
 <wire x1="6.604" y1="-63.373" x2="8.636" y2="-63.373" width="0.127" layer="21"/>
-<wire x1="8.636" y1="-63.373" x2="8.636" y2="-62.865" width="0.127" layer="21"/>
+<wire x1="8.636" y1="-63.373" x2="8.636" y2="-62.865" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -225,7 +225,16 @@
 </symbols>
 <devicesets>
 <deviceset name="PIC16F15376_CURIOSITY_NANO">
-<description>PIC16F15376 Curiosity Nano</description>
+<description>&lt;b&gt;Microchip PIC16F15376 Curiosity Nano&lt;/b&gt;
+&lt;p&gt;Development Platform for PIC16F15376 MCU&lt;/p&gt;
+&lt;p&gt;&lt;author&gt;Created by Giovanni Bernardo 
+&lt;a href="https://www.settorezero.com"&gt;www.settorezero.com&lt;/a&gt;&lt;/author&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;PIC16F15376 Curiosity Nano Evaluation Kit.&lt;br&gt;
+Part NO. DM164148&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM164148"&gt;Link to Microchip webpage about PIC16F15376 Curiosity Nano&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="U$1" symbol="PIC16F15376_CURIOSITY_NANO" x="12.7" y="-22.86"/>
 </gates>
